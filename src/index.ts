@@ -1,3 +1,5 @@
+/// <amd-module name='index'/>
+
 import moduleA from "./modules/moduleA";
 import moduleB from "./modules/moduleB";
 
