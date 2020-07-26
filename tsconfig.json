@@ -2,7 +2,8 @@
     "compilerOptions": {
         "target": "es5",
         "module": "system",
-        "outFile": "./dist/bundle.js",
+        // "outFile": "./dist/bundle.js",
+        "outDir": "dist",
         "strict": true,
         "esModuleInterop": true,
         "inlineSourceMap": true,
