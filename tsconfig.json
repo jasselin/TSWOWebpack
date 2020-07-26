@@ -1,8 +1,12 @@
 {
     "compilerOptions": {
-        "module": "amd",
         "target": "es5",
-        "outDir": "dist"
+        "module": "system",
+        "outFile": "./dist/bundle.js",
+        "strict": true,
+        "esModuleInterop": true,
+        "inlineSourceMap": true,
+        "inlineSources": true
     },
     "include": [
         "src/**/*"

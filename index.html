@@ -2,7 +2,7 @@
 <html>
     <head><title>TypeScript app</title></head>
     <body>
-        <script src="lib/define.js"></script>
+        <!-- <script src="lib/define.js"></script> -->
 
         TypeScript app
         <br/><br/>
@@ -10,9 +10,17 @@
         <button id="btnModuleA">Module A</button>
         <button id="btnModuleB">Module B</button>
 
-        <script src="dist/common.js"></script>
+        <!-- <script src="dist/common.js"></script>
         <script src="dist/modules/moduleA.js"></script>
         <script src="dist/modules/moduleB.js"></script>
-        <script src="dist/index.js"></script>
+        <script src="dist/index.js"></script> -->
+
+        <script src="./node_modules/systemjs/dist/s.js"></script>
+        <script src="./node_modules/systemjs/dist/extras/named-register.js"></script>
+        <script>
+            System.import('./dist/bundle.js')
+                .then(() => System.import('index'))
+                .catch(console.error.bind(console));
+        </script>
     </body>
 </html>
