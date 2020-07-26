@@ -1,4 +1,3 @@
 - Remove .js from import
 - IE 11
 - Update SystemJS
-- Fix Iterable tsc compiler error
