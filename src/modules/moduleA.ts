@@ -1,6 +1,6 @@
-// import { fn1 } from "../common.js";
+import { fn1 } from "./../common.js";
 
 export default () => {
     console.log("Module A");
-    // fn1();
+    fn1();
 };
