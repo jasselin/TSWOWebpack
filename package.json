@@ -17,7 +17,9 @@
   },
   "dependencies": {
     "@types/systemjs": "^6.1.0",
+    "bluebird": "^3.7.2",
+    "systemjs": "5.0.0",
     "typescript": "^3.9.7",
-    "systemjs": "5.0.0"
+    "whatwg-fetch": "^3.2.0"
   }
 }

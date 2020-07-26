@@ -1,3 +1,3 @@
 - Remove .js from import
-- IE 11
 - Update SystemJS
+- Compile on save instead of tsc watch
