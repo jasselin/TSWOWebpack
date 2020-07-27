@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Client\lib\define.js" />
     <Content Include="Client\src\app.ts" />
     <Content Include="Client\src\common.ts" />
     <Content Include="Client\src\index.ts" />
