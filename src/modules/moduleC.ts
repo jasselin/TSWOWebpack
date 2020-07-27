@@ -1,4 +1,4 @@
-import { fn2 } from "./../common.js";
+import { fn2 } from "./../common";
 
 export default () => {
     console.log("Module C");

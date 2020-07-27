@@ -1,15 +1,16 @@
 {
-    "compilerOptions": {
-        "target": "es5",
-        "module": "system",
-        // "outFile": "./dist/bundle.js",
-        "outDir": "dist",
-        "strict": true,
-        "esModuleInterop": true,
-        "inlineSourceMap": true,
-        "inlineSources": true
-    },
-    "include": [
-        "src/**/*"
-    ]
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "diagnostics": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/**/*"
+  ]
 }

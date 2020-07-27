@@ -1,3 +1,6 @@
-- Remove .js from import
-- Update SystemJS
-- Compile on save instead of tsc watch
+- [x] Remove .js from import - see index.ts
+- [x] Update SystemJS - 6.4.0
+- [x] Should compile every files in dist directory - on build
+- Middleware to wait for compilation
+- Load CSS
+- [x] Add cache buster

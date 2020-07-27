@@ -1,3 +1,8 @@
 node_modules
 dist
 package-lock.json
+.vs
+bin
+obj
+launchSettings.json
+*.user
