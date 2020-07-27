@@ -1,6 +1,7 @@
 - [x] Remove .js from import - see index.ts
 - [x] Update SystemJS - 6.4.0
 - [x] Should compile every files in dist directory - on build
-- Middleware to wait for compilation
-- Load CSS
+- [ ] Middleware to wait for compilation
+- [x] Load CSS - abandonned, handled manually
 - [x] Add cache buster
+- [ ] .js + .js.map files

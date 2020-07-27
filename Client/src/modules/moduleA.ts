@@ -1,6 +1,6 @@
 import { fn1 } from "./../common";
 
 export default () => {
-    console.log("Module A");
+    console.log("Module A!");
     fn1();
-};
+}; 

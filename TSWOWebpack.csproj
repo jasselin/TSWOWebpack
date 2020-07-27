@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -10,6 +10,21 @@
     <Content Remove="dist\**" />
     <EmbeddedResource Remove="dist\**" />
     <None Remove="dist\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Client\lib\define.js" />
+    <Content Include="Client\src\app.ts" />
+    <Content Include="Client\src\common.ts" />
+    <Content Include="Client\src\index.ts" />
+    <Content Include="Client\src\modules\moduleA.ts" />
+    <Content Include="Client\src\modules\moduleB.ts" />
+    <Content Include="Client\src\modules\moduleC.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
