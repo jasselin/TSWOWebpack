@@ -5,9 +5,8 @@
     "outDir": "../wwwroot/dist",
     "strict": true,
     "esModuleInterop": true,
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "diagnostics": true
+    "sourceMap": true,
+    "inlineSources": true
   },
   "compileOnSave": true,
   "include": [

@@ -4,4 +4,4 @@
 - [ ] Middleware to wait for compilation
 - [x] Load CSS - abandonned, handled manually
 - [x] Add cache buster
-- [ ] .js + .js.map files
+- [x] .js + .js.map files
