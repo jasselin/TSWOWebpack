@@ -6,7 +6,9 @@
     "strict": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    "inlineSources": true
+    "inlineSources": true,
+    "incremental": true,
+    "diagnostics": true
   },
   "compileOnSave": true,
   "include": [
