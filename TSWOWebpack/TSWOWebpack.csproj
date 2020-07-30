@@ -8,22 +8,21 @@
 
   <ItemGroup>
     <Compile Remove="dist\**" />
+    <Compile Remove="Models\**" />
     <Compile Remove="wwwroot\dist\**" />
     <Content Remove="dist\**" />
+    <Content Remove="Models\**" />
     <Content Remove="wwwroot\dist\**" />
     <EmbeddedResource Remove="dist\**" />
+    <EmbeddedResource Remove="Models\**" />
     <EmbeddedResource Remove="wwwroot\dist\**" />
     <None Remove="dist\**" />
+    <None Remove="Models\**" />
     <None Remove="wwwroot\dist\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Client\src\other.ts" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="Client\src\app.ts" />
-    <Content Include="Client\src\other.ts" />
     <Content Include="Client\src\common.ts" />
     <Content Include="Client\src\index.ts" />
     <Content Include="Client\src\modules\moduleA.ts" />
@@ -32,7 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

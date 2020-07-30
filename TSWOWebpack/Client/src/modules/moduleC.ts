@@ -1,5 +1,5 @@
 import { fn2 } from "./../common";
-import { otherfn } from "./../other"
+import { otherfn } from "other/otherlib";
 
 export default () => {
     console.log("Module C!");

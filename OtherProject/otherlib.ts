@@ -1,3 +1,3 @@
 export function otherfn() {
-    console.log("other");
+    console.log("otherfn!");
 }
