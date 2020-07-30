@@ -11,11 +11,18 @@
     "diagnostics": true,
     "baseUrl": ".",
     "paths": {
-      "other/*": ["../../OtherProject/*"]
+      "other/*": [
+        "../../OtherProject/*"
+      ]
     }
   },
   "compileOnSave": true,
   "include": [
     "src/**/*"
+  ],
+  "references": [
+    {
+      "path": "../../OtherProject"
+    }
   ]
 }

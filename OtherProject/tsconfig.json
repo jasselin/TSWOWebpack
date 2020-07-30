@@ -8,7 +8,9 @@
     "sourceMap": true,
     "inlineSources": true,
     "incremental": true,
-    "diagnostics": true
+    "diagnostics": true,
+    "composite": true,
+    "outDir": "dist"
   },
   "compileOnSave": false
 }
